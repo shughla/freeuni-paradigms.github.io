@@ -1,3 +1,3 @@
-# course setup
+# პროგრამირების პარადიგმები
 
-Simple but powerful setup for a subject. 
+თავისუფალი უნივერსიტეტი, 2020 შემოდგომა
