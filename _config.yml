@@ -5,7 +5,7 @@ remote_theme: pmarsceill/just-the-docs
 title: საგნის სახელი
 description: აღწერა 
 
-baseurl: coursesetup # repo name
+baseurl: paradigms # repo name
 url: "https://iarigby.github.io" 
 
 
