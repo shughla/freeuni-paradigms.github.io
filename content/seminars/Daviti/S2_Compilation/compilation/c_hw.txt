@@ -1,0 +1,4 @@
+gcc -E hw.c -o hw.i
+gcc -S hw.c -o hw.s
+gcc -c hw.c
+gcc hw.c -o hw.out
