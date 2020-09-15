@@ -1,5 +1,5 @@
 ---
-title: bit exercises
+title: datalab handout (bit exercises)
 parent: სავარჯიშოები
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: bitwise operations
-parent: exercises
+parent: სავარჯიშოები
 ---
 
 დირექტორიაში არის c კოდი, რომელიც ორ რიცხვზე თითოეულს გააკეთებს. ეს სია და კოდი აღებულია [ამ გვერდიდან](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/), და დაინტერესებულებისთვის არის უფრო მეტი დეტალები და მაგალითები.

@@ -12,7 +12,7 @@ int main()
     printf("a|b = %d\n", a | b); 
   
     // The result is 00001100 
-    printf("a^b = %d\n", a ^ b); 
+    printf("a^b = %d\n", a ^ b);
   
     // The result is 11111010 
     printf("~a = %d\n", a = ~a); 
