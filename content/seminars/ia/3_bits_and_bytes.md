@@ -1,0 +1,11 @@
+---
+title: მესამე სემინარი (ია)
+parent: ია
+grand_parent: სემინარები
+---
+
+## სემინარის გეგმა
+1. ბიტურ ოპერაციებში ვარჯიში. c-ში ოპერატორების cheat sheet და კოდი შესამოწმებლად [/exercises/bitwise_operators]
+2. [datalab handout](/exercises/datalab-handout) ამოცანები (+ პრეპროცესორის flag-ები `#if 0`)
+
+
