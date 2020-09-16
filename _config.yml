@@ -2,11 +2,11 @@ remote_theme: pmarsceill/just-the-docs
 
 
 # TODO change these 4
-title: საგნის სახელი
-description: აღწერა 
+title: პროგრამირების პარადიგმები 
+description: თბილისის თავისუფალი უნივერსიტეტი, 2020 შემოდგომა
 
-baseurl: paradigms # repo name
-url: "https://iarigby.github.io" 
+baseurl: / # repo name
+url: "https://freeuni-paradigms.github.io" 
 
 
 
@@ -28,7 +28,7 @@ heading_anchors: true
 # TODO change
 aux_links: 
     "საიტის კოდი GitHub-ზე":
-    - "//github.com/iarigby/paradigms"
+    - "//github.com/freeuni-paradigms/freeuni-paradigms.github.io"
     "google classroom":
     - "//classroom.google.com/c/MTU5NDE4MDYwOTY5"
 
@@ -42,7 +42,7 @@ back_to_top_text: "გვერდის დასაწყისში და�
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "ამ გვერდის კოდი"
 # TODO change this
-gh_edit_repository: "https://github.com/iarigby/paradigms" # the github URL for your repo
+gh_edit_repository: "https://github.com/freeuni-paradigms/freeuni-paradigms.github.io" # the github URL for your repo
 gh_edit_branch: "master" # TODO change # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
