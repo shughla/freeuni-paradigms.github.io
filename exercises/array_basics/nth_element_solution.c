@@ -12,12 +12,14 @@ short nthElement1(short* arrPtr, int n) {
 გამოიყენეთ pointer არითმეტიკა
 **/
 short nthElement2(short* arrPtr, int n) {
+	return *(arrPtr + n);
 }
 
 /**
 დაკასტეთ პოინტერი ინტად და ხელით გააკეთეთ არითმეტიკა
 */
 short nthElement3(short* arrPtr, int n) {
+	return *(short*)((char*) arrPtr + sizeof(short)*n);
 }
 
 

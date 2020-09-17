@@ -4,20 +4,20 @@
 
 void test(const char* actual, const char* expected);
 
+// for loop with int i
 void strcpy1(char dest[], const char source[]) {
-	while (*dest++ = *source++);
 }
 
+// for loop with char* i
 void strcpy2(char dest[], const char source[]) {
-
 }
 
+// use assignment operator return value
 void strcpy3(char dest[], const char source[]) {
-
 }
 
+// '\0' == 0
 void strcpy4(char dest[], const char source[]) {
-
 }
 
 int main() {
