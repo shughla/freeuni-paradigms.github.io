@@ -18,7 +18,7 @@ void strcpy2(char dest[], const char source[]) {
 	for (char* i = source; *i != '\0'; i++) {
 		*dest++ = *i;
 	}
-	dest[n] = '\0';
+	dest = '\0';
 }
 
 
