@@ -21,7 +21,7 @@ void strcpy4(char dest[], const char source[]) {
 }
 
 int main() {
-	char* first = "strcpy1\0";
+	char* first = "strcpy1";
 	// რა მოხდება, თუ ეწერება char* firstR?
 	char firstR[10];
 	strcpy1(firstR, first);

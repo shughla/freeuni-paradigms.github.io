@@ -15,10 +15,8 @@ void strcpy1(char dest[], const char source[]) {
 
 // for loop with char* i
 void strcpy2(char dest[], const char source[]) {
-	int n = 0;
 	for (char* i = source; *i != '\0'; i++) {
-		dest[n] = *i;
-		n++;
+		*dest++ = *i;
 	}
 	dest[n] = '\0';
 }
@@ -34,7 +32,7 @@ void strcpy4(char dest[], const char source[]) {
 }
 
 int main() {
-	char* first = "strcpy1\0";
+	char* first = "strcpy1";
 	// რა მოხდება, თუ ეწერება char* firstR?
 	char firstR[10];
 	strcpy1(firstR, first);
