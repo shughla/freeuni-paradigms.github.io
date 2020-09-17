@@ -1,6 +1,5 @@
 ---
-nav_order: 2
-title: მეორე სემინარი (ია)
+title: 2. კომპილაციის პროცესი, g++, make
 parent: ია
 grand_parent: სემინარები
 ---

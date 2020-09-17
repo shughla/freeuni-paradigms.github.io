@@ -1,6 +1,6 @@
 ---
 nav_order: 1
-title: პირველი სემინარი (ია)
+title: 1. შესავალი, კომპილაცია, linux
 parent: ია
 grand_parent: სემინარები
 ---
