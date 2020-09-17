@@ -15,7 +15,7 @@ void strcpy1(char dest[], const char source[]) {
 
 // for loop with char* i
 void strcpy2(char dest[], const char source[]) {
-	for (char* i = source; *i != '\0'; i++) {
+	for (const char* i = source; *i != '\0'; i++) {
 		*dest++ = *i;
 	}
 	dest = '\0';
