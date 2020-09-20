@@ -39,6 +39,6 @@ int main()
 } 
 ```
 
-გარჩეული კოდები შეგიძლიათ იხილოთ [აქ](/exercises/datalab-handout)
+გარჩეული კოდები შეგიძლიათ იხილოთ [აქ](https://github.com/freeuni-paradigms/freeuni-paradigms.github.io/tree/master/exercises/datalab-handout)
 
 ბიტურ ოპერაციებზე ინსტრუქციები შეგიძლიათ იხილოთ [აქ](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)
