@@ -15,7 +15,7 @@ grand_parent: სემინარები
 ## [simple bitwise operations](https://github.com/freeuni-paradigms/freeuni-paradigms.github.io/tree/master/content/seminars/Gvantsa/S3_bitwise_operations/bitwise_operators.c)
 
 ```
-gcc bitwise_operators.c -o bitwise_operators.c
+gcc bitwise_operators.c -o bitwise_operators
 ./bitwise_operators
 ```
 
