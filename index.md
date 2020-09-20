@@ -19,7 +19,7 @@ nav_order: 1
 
 | | სამშაბათი | ხუთშაბათი |
 |---|---|---|
-| 11:10 | [გვანცა](), [ია](https://us02web.zoom.us/j/7471116981)| [გვანცა](), [ია](https://us02web.zoom.us/j/3645498535)| 
+| 11:10 | [გვანცა](https://us02web.zoom.us/j/6669231816), [ია](https://us02web.zoom.us/j/7471116981)| [გვანცა](https://us02web.zoom.us/j/8266757139), [ია](https://us02web.zoom.us/j/3645498535)| 
 | 12:20 | [დათო](https://us02web.zoom.us/j/2207384277), [ია](https://us02web.zoom.us/j/2070440986) | [დათო](https://us02web.zoom.us/j/2207384277), [ია](https://us02web.zoom.us/j/3645498535) |
 
 ## კონტაქტი
