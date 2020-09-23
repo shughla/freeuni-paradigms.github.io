@@ -1,9 +1,4 @@
-typedef enum {
-	Integer, String, List, Nil
-} nodeType;
-
-static char *ConcatStrings(const char *first, const char *second) {
-}
+#include "scheme.h"
 
 char *ConcatAll(nodeType *list) {
 }

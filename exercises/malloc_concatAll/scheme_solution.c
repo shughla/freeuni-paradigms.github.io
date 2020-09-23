@@ -1,13 +1,4 @@
-typedef enum {
-	Integer, String, List, Nil
-} nodeType;
-
-static char *ConcatStrings(const char *first, const char *second) {
-	char *result = malloc(strlen(first) + strlen(second) + 1);
-	strcpy(result, first); 
-	strcat(result, second);
-	return result;
-}
+#include "scheme.h"
 
 char *ConcatAll(nodeType *list) {
 	switch (*list) {
