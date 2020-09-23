@@ -12,3 +12,5 @@ gcc concatStrings.c concatStrings_test.c && ./a.out
 ```
 
 
+## II ნაწილი
+[პირობა](./problem.pdf)
