@@ -1,7 +1,6 @@
 ---
 title: ლექციები
 has_children: true
-nav_exclude: true
 ---
 
 ## კვირა 4
