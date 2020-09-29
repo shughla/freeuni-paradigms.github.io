@@ -11,7 +11,7 @@ grand_parent: სემინარები
 * [arrays.pdf](/content/handouts/arrays.pdf)
 
 პოინტერების არითმეტიკაზე სავარჯიშოდ გამოგადგებათ კოდები:
-* [array basics](/exercises/array_basics)
-* [structs](/content/seminars/Daviti/S4_PointerArithmetic/struct.c)
+* [array basics](https://github.com/freeuni-paradigms/freeuni-paradigms.github.io/tree/master/exercises/array_basics)
+* [structs](https://github.com/freeuni-paradigms/freeuni-paradigms.github.io/tree/master/content/seminars/Daviti/S4_PointerArithmetic/struct.c)
 
 მეხსიერებასა და პოინტერებზე დამატებითი ინფორმაციისთვის შეგიძლიათ გადახედოთ [ამ pdf-ს](http://cslibrary.stanford.edu/102/PointersAndMemory.pdf)
