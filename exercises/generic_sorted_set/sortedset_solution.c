@@ -27,7 +27,8 @@ void SetNew(sortedset *set, int elemSize,
  * to contain the index of the element being sought if it were the
  * element to be inserted——that is, the address of the –1 that ended
  * the search. */
-static int *FindNode(sortedset *set, const void *elem) {void *curr;
+static int *FindNode(sortedset *set, const void *elem) {
+	void *curr;
 	int comp, *root = set->root;
 	while (*root != -1) { // while not addressing a leaf
 		curr = (char *) (set->root + 1) + *root * NodeSize(set->elemSize);
@@ -40,7 +41,8 @@ static int *FindNode(sortedset *set, const void *elem) {void *curr;
 }
 
 bool SetAdd(sortedset *set, const void *elemPtr) {
-	int *child;void *dest;
+	int *child;
+	void *dest;
 	child = FindNode(set, elemPtr);
 	if (*child != -1) return false;  // already there.. say we didn't add it.
 	if (set->logicalSize == set->allocatedSize) Expand(set);
