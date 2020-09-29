@@ -7,7 +7,7 @@ parent: რესურსები
 
 ```sh
 # სანამ ბრძანებას გაუშვებთ, cd <დირექტორია სადაც გინდათ, რომ პარადიგმების კოდი იყოს>
-git clone https://github.com/iarigby/paradigms.git 
+git clone https://github.com/freeuni-paradigms/freeuni-paradigms.github.io.git
 ```
 ამის შემდეგ შეიქმნება ახალი დირექტორია paradigms, სადაც იქნება საგნის კოდი
 
