@@ -14,3 +14,6 @@ gcc concatStrings.c concatStrings_test.c && ./a.out
 
 ## II ნაწილი
 [პირობა](./problem.pdf)
+
+## დამატებით
+- დაწერეთ `ConcatStrings`-ის ვერსია, რომელიც იყენებს `realloc`-ს. რატომ ვერ გამოვიყენებთ realloc-ს ამ მოცემულობაში? რა იქნებოდა ამ იდეის კიდევ უფრო მარტივი ვერსია?
