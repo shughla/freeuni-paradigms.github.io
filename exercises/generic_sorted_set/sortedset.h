@@ -1,5 +1,11 @@
+#include <bool.h>
+
 typedef struct {
-	// fill in
+	int *root;
+	int logicalSize;
+	int allocatedSize;
+	int (*cmp)(const void *, const void *);
+	int elemSize;
 } sortedset;
 
 /** Function: SetNew
@@ -32,4 +38,4 @@ bool SetAdd(sortedset *set, const void *elemPtr);
  * set was created. A pointer to the matching element is returned
  * for successful searches, and NULL is returned to denote failure. 
  */
-void *SetSearch(sorted *set, const void *elemPtr);
+void *SetSearch(sortedset *set, const void *elemPtr);
