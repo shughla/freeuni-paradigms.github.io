@@ -1,5 +1,6 @@
 ---
 title: ჯენერიკ სტეკი
+parent: ლექციები
 has_children: false
 ---
 
