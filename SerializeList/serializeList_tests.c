@@ -118,7 +118,11 @@ bool test4(){
 }
 
 bool test5(){
-  void* test = makeLinkedList(NULL, 0);
+  char ** stringArray = malloc(4 * sizeof(char*));
+  for(int i = 0 ; i < 4; i++){
+    stringArray[i] = strdup("");
+  }
+  void* test = makeLinkedList(stringArray, 4);
 
   void* studentAnswer = serializeList(test);
   void* realAnswer = serializeListSolution(test);
