@@ -78,8 +78,73 @@ bool test1(){
 }
 
 
+bool test2(){
+  char ** stringArray = malloc(3*sizeof(char*));
+  stringArray[0] = strdup("");
+  stringArray[1] = strdup("b");
+  stringArray[2] = strdup("ab");
+
+  void* test = makeLinkedList(stringArray, 3);
+
+  void* studentAnswer = serializeList(test);
+  void* realAnswer = serializeListSolution(test);
+  
+  return check(studentAnswer, realAnswer);
+}
+
+bool test3(){
+  char ** stringArray = malloc(sizeof(char*));
+  stringArray[0] = strdup("");
+  
+  void* test = makeLinkedList(stringArray, 1);
+
+  void* studentAnswer = serializeList(test);
+  void* realAnswer = serializeListSolution(test);
+  
+  return check(studentAnswer, realAnswer);
+}
+
+bool test4(){
+  char ** stringArray = malloc(10 * sizeof(char*));
+  for(int i = 0 ; i < 10; i++){
+    stringArray[i] = strdup("a");
+  }
+  void* test = makeLinkedList(stringArray, 10);
+
+  void* studentAnswer = serializeList(test);
+  void* realAnswer = serializeListSolution(test);
+  
+  return check(studentAnswer, realAnswer);
+}
+
+bool test5(){
+  void* test = makeLinkedList(NULL, 0);
+
+  void* studentAnswer = serializeList(test);
+  void* realAnswer = serializeListSolution(test);
+  
+  return check(studentAnswer, realAnswer);
+}
+
+
+bool test6(){
+  char ** stringArray = malloc(sizeof(char*));
+  stringArray[0] = strdup("abcdefg");
+  
+  void* test = makeLinkedList(stringArray, 1);
+
+  void* studentAnswer = serializeList(test);
+  void* realAnswer = serializeListSolution(test);
+  
+  return check(studentAnswer, realAnswer);
+}
+
 int main(){
-  if(test1())
-    printf("Yes");
+  Test("test1", test1);
+  Test("test2", test1);
+  Test("test3", test1);
+  Test("test4", test1);
+  Test("test5", test1);
+  Test("test6", test1);
   return 0;
 }
