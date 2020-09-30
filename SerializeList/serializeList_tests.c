@@ -105,11 +105,11 @@ bool test3(){
 }
 
 bool test4(){
-  char ** stringArray = malloc(10 * sizeof(char*));
-  for(int i = 0 ; i < 10; i++){
+  char ** stringArray = malloc(5 * sizeof(char*));
+  for(int i = 0 ; i < 5; i++){
     stringArray[i] = strdup("a");
   }
-  void* test = makeLinkedList(stringArray, 10);
+  void* test = makeLinkedList(stringArray, 5);
 
   void* studentAnswer = serializeList(test);
   void* realAnswer = serializeListSolution(test);
@@ -145,10 +145,10 @@ bool test6(){
 
 int main(){
   Test("test1", test1);
-  Test("test2", test1);
-  Test("test3", test1);
-  Test("test4", test1);
-  Test("test5", test1);
-  Test("test6", test1);
+  Test("test2", test2);
+  Test("test3", test3);
+  Test("test4", test4);
+  Test("test5", test5);
+  Test("test6", test6);
   return 0;
 }
