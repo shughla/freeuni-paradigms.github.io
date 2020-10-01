@@ -1,6 +1,9 @@
 #include <stdbool.h>
 
 #include "vector.h"
+#include <stdlib.h>
+#include <string.h>
+
 
 typedef struct {
 	bool * bitmap;
