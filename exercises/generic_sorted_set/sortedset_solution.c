@@ -1,3 +1,5 @@
+#include "sortedset.h"
+
 #define NodeSize(clientElem)  ((clientElem) + 2 * sizeof(int))
 
 static const int kInitialCapacity = 4;
