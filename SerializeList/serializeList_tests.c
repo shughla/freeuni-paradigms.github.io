@@ -45,21 +45,19 @@ void* makeLinkedList(char** stringArray, int length){
 bool check(void* studentAnswer, void* realAnswer){
   if(studentAnswer == NULL)
     return false;
-  if(*((int*)studentAnswer) != *((int*)realAnswer))
+  if((*(int *)studentAnswer) != (*(int *)realAnswer))
       return false;
 
-  int quantity = *((int*)studentAnswer);
-
-  void* first = (char*)studentAnswer + sizeof(int*);
-  void* second = (char*)realAnswer + sizeof(int*);
-
+  int quantity = (*(int *)studentAnswer);
+  void* first = (char*)studentAnswer + sizeof(int);
+  void* second = (char*)realAnswer + sizeof(int);
   for(int i = 0; i < quantity; i++){
-    if(strcmp((char*)first, (char*)second) != 0)
+    if(strcmp((char*)first, (char*)second) != 0){
       return false;
+    }
     first = (char*)first + strlen(first) + 1;
     second = (char*)second + strlen(second) + 1;
   }
-
   return true;
 }
 
@@ -105,11 +103,11 @@ bool test3(){
 }
 
 bool test4(){
-  char ** stringArray = malloc(5 * sizeof(char*));
-  for(int i = 0 ; i < 5; i++){
+  char ** stringArray = malloc(50 * sizeof(char*));
+  for(int i = 0 ; i < 50; i++){
     stringArray[i] = strdup("a");
   }
-  void* test = makeLinkedList(stringArray, 5);
+  void* test = makeLinkedList(stringArray, 50);
 
   void* studentAnswer = serializeList(test);
   void* realAnswer = serializeListSolution(test);
@@ -118,11 +116,11 @@ bool test4(){
 }
 
 bool test5(){
-  char ** stringArray = malloc(4 * sizeof(char*));
-  for(int i = 0 ; i < 4; i++){
+  char ** stringArray = malloc(5 * sizeof(char*));
+  for(int i = 0 ; i < 5; i++){
     stringArray[i] = strdup("");
   }
-  void* test = makeLinkedList(stringArray, 4);
+  void* test = makeLinkedList(stringArray, 5);
 
   void* studentAnswer = serializeList(test);
   void* realAnswer = serializeListSolution(test);
