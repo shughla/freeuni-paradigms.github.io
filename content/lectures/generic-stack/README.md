@@ -1,5 +1,5 @@
 ---
-title: ჯენერიკ სტეკი
+title: ჯენერიკ stack
 parent: ლექციები
 has_children: false
 ---
