@@ -1,3 +1,4 @@
 a.out
 *.o
 paradigms-assignments
+.DS_Store
