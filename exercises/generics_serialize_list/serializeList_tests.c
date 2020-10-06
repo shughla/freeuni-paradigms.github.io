@@ -4,7 +4,9 @@
 #include <assert.h>
 #include <stdbool.h>
 #include "serializeList.h"
-#include "serializeList_solution.h"
+
+
+int * serializeListSolution(const void *list);
 
 #define ASSERT(expr) {							\
   if (!(expr)) {								\
