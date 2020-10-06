@@ -130,25 +130,11 @@ bool test5(){
   return check(studentAnswer, realAnswer);
 }
 
-
-bool test6(){
-  char ** stringArray = malloc(sizeof(char*));
-  stringArray[0] = strdup("abcdefg");
-  
-  void* test = makeLinkedList(stringArray, 1);
-
-  void* studentAnswer = serializeList(test);
-  void* realAnswer = serializeListSolution(test);
-  
-  return check(studentAnswer, realAnswer);
-}
-
 int main(){
-  Test("test1", test1);
-  Test("test2", test2);
-  Test("test3", test3);
+  Test("basic example", test1);
+  Test("case with empty string", test2);
+  Test("case with single empty string", test3);
   Test("test4", test4);
-  Test("test5", test5);
-  Test("test6", test6);
+  Test("case with multiple empty strings", test5);
   return 0;
 }
