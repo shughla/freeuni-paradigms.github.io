@@ -184,11 +184,11 @@ bool testMap(){
 
 
 int main(){
-  Test("Constructor for integers.", testConstructor1);
-  Test("Constructor for floats.", testConstructor2);
-  Test("Constructor for shorts.", testConstructor3);
-  Test("Constructor for different types.", testConstructor4);
-  Test("Constructor for strings.", testConstructor5);
+  // Test("Constructor for integers.", testConstructor1);
+  // Test("Constructor for floats.", testConstructor2);
+  // Test("Constructor for shorts.", testConstructor3);
+  // Test("Constructor for different types.", testConstructor4);
+  // Test("Constructor for strings.", testConstructor5);
   Test("Enter different elements.", testEnter1);
   Test("Enter same elements.", testEnter2);
   Test("Enter strings.", testEnter3);
