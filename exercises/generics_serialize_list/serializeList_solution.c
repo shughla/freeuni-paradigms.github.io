@@ -1,6 +1,8 @@
 #include "serializeList.h"
 
+// list = (const void **) *(const void**)list;
 
+// რატომ არ გვაქვს შექმნილი Node სტრუქტურა?
 int * serializeListSolution(const void *list){
   int *serialization = malloc(sizeof(int));
   int serializationLength = sizeof(int);
@@ -11,7 +13,9 @@ int * serializeListSolution(const void *list){
     serialization = realloc(serialization, serializationLength + strlen(str) + 1);
     strcpy((char *) serialization + serializationLength, str);
     serializationLength += strlen(str) + 1;
-    curr = (const void **) *curr;numNodes++;
+    // იმუშავებს თუ არა, რომ არ დავკასტოთ?
+    curr = (const void **) *curr;
+    numNodes++;
   }
   *serialization = numNodes;
   return serialization;
