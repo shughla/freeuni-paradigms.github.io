@@ -1,5 +1,5 @@
 ---
-title: sparse string array
+title: generics multitable
 parent: სავარჯიშოები
 ---
 
