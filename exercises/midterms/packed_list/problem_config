@@ -1,0 +1,8 @@
+make packed_list ip_list
+make -C tests run_tests
+./run_tests
++ makefile
+- ip_list.h
+- packed_list.h
++ tests/makefile
++ tests/tests.c

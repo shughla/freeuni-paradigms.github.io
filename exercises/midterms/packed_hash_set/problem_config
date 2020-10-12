@@ -1,0 +1,8 @@
+make packed_hash_set tuple_hash_set
+make -C tests run_tests
+./run_tests
++ makefile
+- packed_hash_set.h
+- tuple_hash_set.h
++ tests/makefile
++ tests/tests.c
