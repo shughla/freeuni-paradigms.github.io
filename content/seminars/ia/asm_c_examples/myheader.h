@@ -1,0 +1,3 @@
+typedef mystruct {
+	int a;
+}
