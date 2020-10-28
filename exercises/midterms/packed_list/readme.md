@@ -1,3 +1,7 @@
+---
+parent: გამოცდის საკითხების მაგალითები
+---
+
 # Packed List (70 ქულა)
 typedef struct {<br/>
 &nbsp;&nbsp;void&ast; base;<br/>

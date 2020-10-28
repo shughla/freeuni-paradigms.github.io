@@ -1,3 +1,8 @@
+---
+parent: გამოცდის საკითხების მაგალითები
+---
+
+
 # Packed HashSet (70 ქულა)
 typedef void(*Free)(void*);<br/>
 typedef int(*UniqueHash)(const void*);<br/>
