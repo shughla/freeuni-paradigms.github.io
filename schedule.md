@@ -25,6 +25,8 @@ nav_order: 1
 ## ჰენდაუთების სია
 **note**: მე-12 ჰენდაუთამდე არაა დასრულებული.
 
+<!-- TODO move 20 to exercises -->
+
 | ნომერი | სახელი | რა მასალა შედის |
 |---|---|---|
 | 1, 2 | | კურსის ინფორმაცია და და სილაბუსი | 
@@ -49,7 +51,6 @@ nav_order: 1
 | 18S | Section Solution |  c generics (sparseStringArray, serializeList, multitable, multitable client code) |
 | 19 | [Assignment 5: Raw Memory](/handouts/19-Assignment-5-Raw-Memory.pdf) | c generics , ბიტები, assembly, c++. (Binary numbers and bit operations, ASCII and extended ASCII, It's just bits and bytes, Identical Outputs, Find the linked list, Homestar Runner: The System Is Down, The Hitchhiker’s Guide To The Galaxy, C++’s Dark Side) |
 | 19S | [Assignment 5 Solution](/handouts/https://see.stanford.edu/materials/icsppcs107/19S-Assignment-5-Solution.pdf) | c generics, ბიტები, assembly, c++. (Binary numbers and bit operations, ASCII and extended ASCII, It's just bits and bytes, Identical Outputs, Find the linked list, Homestar Runner: The System Is Down, The Hitchhiker’s Guide To The Galaxy, C++’s Dark Side) |
-<!-- TODO move this to exercises -->
 | 20 | [Section Handout](/handouts/20-Section-Handout.pdf) | assembly. (The Incredibles, New Zoo Revue) |
 | 20S | [Section Solution](20S-Section-Solution.pdf) | assembly. (The Incredibles, New Zoo Revue) |
 | 21 | CS107 Practice Midterm Exam | assembly, c pointers, c generics, ბიტები. (San Francisco Fine Dining, Breaking Larger Data Images Into Packets, The C multiset, The Queen Of Parking Infractions, Short Answers) |
