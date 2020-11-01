@@ -1,3 +1,3 @@
-typedef mystruct {
+typedef struct {
 	int a;
-}
+}mystruct ;
