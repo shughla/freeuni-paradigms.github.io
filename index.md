@@ -22,7 +22,7 @@ nav_order: 1
 | 11:10 | [გვანცა](https://us02web.zoom.us/j/6669231816), [ია](https://us02web.zoom.us/j/7471116981)| [გვანცა](https://us02web.zoom.us/j/8266757139), [ია](https://us02web.zoom.us/j/3645498535)| 
 | 12:20 | [დათო](https://us02web.zoom.us/j/2207384277), [ია](https://us02web.zoom.us/j/2070440986) | [დათო](https://us02web.zoom.us/j/2207384277), [ია](https://us02web.zoom.us/j/3645498535) |
 
-[Office Hours - სექციის ლიდერებთან](https://zoom.us/j/96541916698?pwd=Yzc4c1Y0OFl0TFRrWjNHOVpZQ2JLZz09)<br/>
+[Office Hours - სექციის ლიდერებთან](https://zoom.us/j/3574768672)<br/>
 სამშაბათი: 17:00 - 18:00<br/>
 ხუთშაბათი: 13:30 - 14:30<br/>
 
