@@ -19,26 +19,7 @@ typedef struct {
 	int counter;
 	sem_t * evenLock;
 	sem_t * oddLock;
-	sem_t * lock;
 } dataT;
-
-
-void * OddEvenPrinter(void * data) {
-	dataT * d = (dataT *)data;
-
-	int start = 0; 
-	sem_wait(d->lock);
-	start = d->counter++;
-	sem_post(d->lock);
-
-	for (int i=2; i<=100; i+=2) {
-		RandomSleep();
-		sem_wait(d->evenLock);
-		printf("%d\n", i);
-		sem_post(d->oddLock);
-	}
-	return NULL;
-}
 
 void * EvenPrinter(void * data) {
 	dataT * d = (dataT *)data;
