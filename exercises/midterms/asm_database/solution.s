@@ -6,7 +6,7 @@
 // dataCenter, _, 20
 // coordinates 0, 4
 // node 4, 8
-// next, 16, 4
+// next, 12, 4
 
 SP = SP - 4 // make space for queryScript variable
 
